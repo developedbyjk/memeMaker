@@ -13,7 +13,9 @@ main{
   justify-content: space-around;
   align-items: center; */
  
+
   /* gap: 50px; */
+  position: relative;
 
   
 }
@@ -151,14 +153,40 @@ main {
   
 } */
 
-@media only screen and  (min-width: 900px) {
+.footer{
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: .7rem;
+  background-color: white;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+@media only screen and  (max-width: 400px) {
 
   body{
-    /* background-color: aquamarine; */
+    background-color: aquamarine;
+  }
+  
+  main{
+    padding: 0px;
   }
 
+  .form--button{
+
+    padding: 12px;
+  }
   
+  #new-image {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    margin-top: 50px;
+  }
  
 
+  
 
 }
